@@ -1,0 +1,36 @@
+body {
+    padding: 20px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 120px;
+}
+
+#header-img {
+    max-height: 40px;
+    margin-left: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    width: 300px;
+    justify-content: space-between;
+    margin-right: 35px;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.margin-top {
+ margin-top: 120px;
+}
