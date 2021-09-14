@@ -32,5 +32,101 @@ ul {
 }
 
 .margin-top {
- margin-top: 120px;
+    margin-top: 120px;
+}
+
+#seccion-1, #seccion-2, #seccion-3 {
+    scroll-margin-top: 140px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#email {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#submit {
+    width: 100px;
+    height: 30px;
+    background-color: sandybrown;
+    border: 1px solid rgb(126, 126, 126);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgb(241, 136, 44);
+}
+
+#video {
+    display: block;
+    margin: 40px auto;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+    border: 1px solid black;
+}
+
+.card-header {
+    background-color: gray;
+    width: 100%;
+}
+
+.card h4 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card-content {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-btn {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(179, 128, 47);
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card-btn:hover {
+    background-color: rgb(246, 154, 6);
+}
+
+/* Media query */
+
+@media (max-width: 560px) {
+    #header-img {
+        max-height: 20px;
+    }
 }
